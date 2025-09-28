@@ -1,7 +1,15 @@
-import Image from "next/image";
+import TopCategorySlider from "@/components/TopCategorySlider";
+import HomeSlider from "@/components/HomeSlider";
+import React from "react";
 
-export default function Home() {
+const page = () => {
   return (
-   <h1>FreshBasket 🥬</h1>
+    <div className="container">
+      <HomeSlider />
+
+      <TopCategorySlider />
+    </div>
   );
-}
+};
+
+export default page;
