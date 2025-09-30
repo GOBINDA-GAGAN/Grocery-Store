@@ -1,14 +1,27 @@
 @import "tailwindcss";
 
-body{
-  background:#FAFAFA;
-}
-@theme{
-  --color-primary:#54B22C;
-  --color-secondary:#43901F;
+
+
+@theme {
+  --color-primary: #54B22C;
+  --color-secondary: #43901F;
 }
 
 .container {
   width: 95%;
   margin: auto;
+}
+
+.MuiTabs-list button {
+  font-weight: 600 !important;
+}
+
+.MuiTabs-list .Mui-selected {
+  @apply !text-primary
+}
+.MuiTabs-indicator{
+  background-color:#54B22C !important ;
+}
+.swiper-wrapper{
+ padding: 10px;
 }
