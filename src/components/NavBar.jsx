@@ -29,8 +29,8 @@ const NavBar = () => {
   const extraCategories = categories.slice(9);
 
   return (
-    <nav className="w-full bg-white  py-2">
-      <div className="container mx-auto relative">
+    <nav className="w-full bg-white py-2 sticky top-0 z-50  shadow-md">
+      <div className="container relative">
         <Swiper
           slidesPerView={3}
           spaceBetween={10}
@@ -39,7 +39,6 @@ const NavBar = () => {
             768: { slidesPerView: 6 },
             1024: { slidesPerView: 9 },
           }}
-
           className="mySwiper"
         >
           {firstCategories.map((cat) => (

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { IoHeartOutline, IoMenu, IoClose, IoSearch } from "react-icons/io5";
 import { BsHandbag } from "react-icons/bs";
 import Search from "./Search";
-import NavBar from "./NavBar";
+
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <>
       {/* Header */}
-      <header className="w-full bg-white border-b border-gray-400 sticky top-0 left-0 z-50">
+      <header className="w-full bg-white border-b border-gray-400  z-50">
         <div className="container mx-auto flex items-center justify-between px-4 py-3">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">

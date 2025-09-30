@@ -3,12 +3,12 @@ import HomeSlider from "@/components/HomeSlider";
 import React from "react";
 import PopularProduct from "@/components/PopularProduct";
 import Banner from "@/components/Banner";
-import NavBar from "@/components/NavBar";
+
 
 const page = () => {
   return (
     <div>
-      <NavBar/>
+      
       <HomeSlider />
 
       <TopCategorySlider />
